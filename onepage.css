@@ -1,0 +1,389 @@
+.split_the_page{position: absolute; z-index: 10; bottom:13%;}
+.split_the_page_two{width:100%; padding-top:30px;}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color:white;
+}
+
+
+
+	#button_change:hover{animation: linear 0.5s button_change forwards;}
+	@keyframes button_change{
+		0%{color:white; background-color:darkgrey;}
+		50%{color:grey; background-color:grey; border:white; border-radius:25px;}
+		100%{color:black; background-color:white; border:black 0.5px solid; border-radius:50px;}
+	}
+		#button_changer_two:hover{animation: linear 0.5s button_changer forwards;}
+	@keyframes button_changer{
+		0%{color:white; background-color:darkgrey;}
+		50%{color:grey; background-color:grey; border:white; border-radius:25px;}
+		100%{color:black; background-color:lightgrey; border:black 0.5px solid; border-radius:50px;}
+	}
+
+
+#facebook:hover{animation:linear 0.5s face forwards;}
+@keyframes face{
+	0%{color:inherit;}
+	100%{color:blue;}
+}
+
+#twitter:hover{animation:linear 0.5s twit forwards;}
+@keyframes twit{
+	0%{color: inherit;}
+	100%{color:lightblue;}
+}
+
+#pinterest:hover{animation:linear 0.5s pin forwards;}
+@keyframes pin{
+	0%{color:inherit;}
+	100%{color:maroon;}
+}
+
+#linkedin:hover{animation:linear 0.5s link forwards;}
+@keyframes link{
+	0%{color: inherit;}
+	100%{color:darkblue;}
+}
+
+#googleplus:hover{animation:linear 0.5s plus forwards;}
+@keyframes plus{
+	0%{color:inherit;}
+	100%{color:red}
+}
+
+#behance:hover{animation: linear 0.5s behan forwards; }
+@keyframes behan{
+	0%{color:inherit;}
+	100%{color:aqua;}
+}
+
+#globe:hover{animation:linear 0.5s glo forwards;}
+@keyframes glo{
+	0%{color:inherit;}
+	100%{color:lightgreen;}
+}
+
+#instagram:hover{animation:linear 0.5s insta forwards;}
+@keyframes insta{
+	0%{color:inherit;}
+	100%{color:magenta;}
+}
+
+
+
+/*************SECTION ONE*****************/
+	.section_one{
+	background:linear-gradient(0.50turn, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3) ), url("top_backing_image.jpg");}
+
+	.first_banner{text-align: center; 
+	 background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height:500px;}
+
+	.company_name{text-align: left; margin-right: 45%; padding-top:5%; color:white; font-size:30px;}
+	.section_one_top_bar{}
+	nav{text-align: right; list-style-type: none; word-spacing:25px; margin-right:5%; color:white;}
+	li{display: inline;}
+	#main_head_content{position: relative; z-index:30;}
+	h1{margin-top:5%; color:white; font-size:80px;}
+	.main_header_desc{color:white; font-size:20px;}
+	.social_banner{word-spacing: 30px; color:white;}
+/******************************/
+
+
+
+
+/**************SECTION TWO****************/
+	.section_two{margin-top:120px; margin-bottom:60px; text-align: center;}
+	#section_one_content{text-align: left;}
+	#about_title{}
+
+	h2{font-size:30px;}
+	.left_picture{height:450px; width:300px;}
+	.right_picture{height:450px; width:300px;}
+
+	.sectiontwo_subtitle{font-size:25px;}
+
+	.sectiontwo_content_one{color:grey;}
+	.sectiontwo_content_two{color:grey;}
+
+	.about_company_button{color:white; background-color:darkgrey; border:none; height:50px; width:150px;}
+/******************************/
+
+
+
+
+
+/****************SECTION THREE**************/
+	.section_three{background-color:lightgrey; text-align:center; height:700px;}
+	#section_three_title{}	
+	.three_sub_title{color:grey; }
+	.three_title{ margin-bottom:50px; }
+
+
+	#three_option_rows{width:100%;}
+
+	.theline{height:80px; width:2px; background-color:black; padding:0;}
+
+	#first_option{}
+	.option_one_three{background-color: white; padding:31px 20px 11px; text-align: left;}
+	.three_option_one_title{font-size:25px;}
+	.three_option_one_desc{color:grey; font-size:inherit;}
+	#awesome_one{color:grey;}
+
+	#second_option{}
+	.option_two_three{background-color: white; padding:31px 20px 11px; text-align:left;}
+	.three_option_two_title{font-size:25px;}
+	.three_option_two_desc{color:grey; font-size:inherit;}
+	#awesome_two{color:grey; }
+
+	#third_option{}
+	.option_three_three{background-color: white; padding:31px 20px 11px; text-align:left;}
+	.three_option_three_title{font-size:25px;}
+	.three_option_desc{color:grey; font-size:inherit;}
+	#awesome_three{color:grey; }
+
+/******************************/
+
+
+
+
+/**************SECTION FOUR****************/
+	.section_four{}
+	.section_four_title{text-align:center;}
+
+	#four_option_one{}
+	.four_title_one{font-size:20px;}
+	.four_desc_one{color:grey;}
+
+
+	#four_option_two{}
+	.four_title_two{font-size:20px;}
+	.four_desc_two{color:grey;}
+
+
+	#four_option_three{}
+	.four_title_three{font-size:20px;}
+	.four_desc_three{color:grey;}
+
+
+	#four_option_four{}
+	.four_title_four{font-size:20px;}
+	.four_desc_four{color:grey}
+
+
+	#four_option_five{}
+	.four_title_five{font-size:20px;}
+	.four_desc_five{color:grey}
+
+	#four_option_six{}
+	.four_title_six{font-size:20px;}
+	.four_desc_six{color:grey}
+
+
+	#symbol_one{color:grey;}
+	#symbol_two{color:grey;}
+	#symbol_three{color:grey;}
+	#symbol_four{color:grey;}
+	#symbol_five{color:grey;}
+	#symbol_six{color:grey;}
+/******************************/
+
+
+
+
+
+/**************SECTION FIVE****************/
+	.section_five{background-color:lightgrey; text-align: center; height:800px;}
+	#section_five_title{}
+	.selection_row{text-align:center; word-spacing:10px;}
+	.five_title{}
+
+	.five_select{width:50px;}
+
+	#five_selector_one{}
+	.five_image_one{width:280px; height:193px; border:1px solid white;}
+
+
+	#five_selector_two{}
+	.five_image_two{width:280px; height:193px; border:1px solid white;}
+
+
+	#five_selector_three{}
+	.five_image_three{width:280px; height:193px; border:1px solid white;}
+
+
+	#five_selector_four{}
+	.five_image_four{width:280px; height:193px; border:1px solid white;}
+
+
+	#five_selector_five{}
+	.five_image_five{width:280px; height:193px; border:1px solid white;}
+
+	#five_selector_six{}
+	.five_image_six{width:280px; height:193px; border:1px solid white;}
+
+	#fiver:hover{animation:linear 0.5s picture_select forwards;}
+	@keyframes picture_select{
+		0%{border:1.5px solid white;}
+		50%{border:2.5px solid white;}
+		100%{border:3px solid black;}
+	}
+
+
+
+	#picture_row_one{margin-bottom: 5%; margin-top:5%;}
+	#picture_row_two{}
+
+	.selection_one{background-color:transparent; color:grey; border:none; cursor:pointer;}
+	.selection_two{background-color:transparent; color:grey; border:none;}
+	.selection_three{background-color:transparent; color:grey; border:none;}
+	.selection_four{background-color:transparent; color:grey; border:none;}
+	.selection_five{background-color:transparent; color:grey; border:none;}
+
+	#select_change:hover{animation: linear 0.5s select forwards;}
+	@keyframes select{
+		0%{background-color:transparent; color:grey; border:none;}
+		50%{background-color:lightgrey; color:grey; border:0.5px solid grey; border-radius:25px;}
+		100%{background-color:white; color:black; border:0.5px solid black; border-radius:50px;}
+	}
+
+/******************************/
+
+
+
+
+
+/*************SECTION SIX*****************/
+	.section_six{
+		text-align: center; 
+	  	background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		background:linear-gradient(0.50turn, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3) ), 
+  		url("backing_mid_image.jpg");
+
+  		height:700px;
+  }
+	#section_six_title{color:white;}
+	#play_button_video{color: white; padding-top:150px; padding-bottom:25px;}
+	.six_title{}
+	.six_desc{}
+
+
+	.circle_changer:hover{animation:linear 0.2s play_button forwards;}
+	@keyframes play_button{
+		0%{color:white;}
+		100%{color:red;}
+	}
+/******************************/
+
+
+
+
+
+/**************SECTION SEVEN****************/
+	.section_seven{ margin-bottom:5%; }
+	#section_seven_title{}
+	.seven_title{text-align:center;}
+
+	#section_seven_content_wrap{}
+
+	#seven_option_one{}
+	#seven_option_two{}
+	#seven_option_three{}
+
+
+	.seven_comma{background-color:lightgrey; color:grey; border-radius:100px; 
+		width:50px; height:50px; text-align:center; font-size:45px; position: relative; bottom:10%;  left:5%;}
+	.seven_sub_title{background-color:lightgrey; padding:31px 20px 11px; padding-bottom:50px;}
+	.seven_image{width:70px; height:70px; border-radius:50px;}  
+	.seven_name{text-align: left;}
+	.seven_occupation{text-align: left;}
+
+	.split_the_page_six{padding-top:50px;}
+/******************************/
+
+
+/**************SECTION EIGHT****************/
+	.section_eight{background-color:lightgrey; text-align:center; padding-bottom: 100px;}
+	.section_eight_title{}
+	.eight_title{}
+
+	.team_undertext{background-color: white; width:200px; height:50px; position: absolute; 
+		z-index:5; bottom:-7%; left:15%}
+
+	.eight_picture{width:250px; border:5px white solid;}
+	.eight_names{}
+	.eight_job_title{}
+
+
+
+.black_overlay_one{}
+
+
+
+
+/****
+.black_overlay_two{background-color:black; position: absolute; z-index:4; height:100%; width:90%; opacity:0.7;}
+.black_overlay_three{background-color:black; position:absolute; z-index:4; height:100%; width:90%; opacity:0.7}
+.black_overlay_four{background-color:black; position:absolute; z-index:4; height:100%; width:90%; opacity:0.7;}
+
+
+/******************************/
+
+
+
+/**************SECTION NINE****************/
+	.section_nine{text-align: center; padding-bottom:5%;}
+	#section_nine_title{}
+	.nine_title{}
+
+	.nine_image{width:350px; height:250px;}
+	.nine_content{text-align: left;}
+	.nine_postinfo{}
+	.nine_thumb_image{width:35px; height:35px; margin-right:10%;}
+/******************************/
+
+
+
+/***************SECTION TEN***************/
+	.section_ten{background-color:lightgrey;  padding-bottom:5%;}
+	#section_ten_title{}
+	.ten_title{text-align: center;}
+	#info_wrapper_ten{t}
+
+
+	.social_banner_ten{word-spacing:5%;}
+
+
+	.bottom_info{background-color:lightgrey; border:5px solid grey; width:300px; padding:31px 20px 11px;}
+
+	#ten_form_wrapper{ }
+	.name_input{width:80%; margin-bottom:5%;  padding:0; background-color:transparent; border:none; border-bottom:1px solid black;}
+	.email_input{width:80%; margin-bottom: 5%; padding:0; background-color:transparent; border:none; border-bottom:1px solid black;}
+	input{width:80%; padding-bottom:15%; background-color: transparent; border:none; border-bottom:1px solid black;}
+	.submit_ten{margin-top: 5%; color: white; background-color: darkgrey; border:none; height:50px; width:150px;}
+/******************************/
+
+
+
+
+/**************SECTION ELEVEN****************/
+	footer{text-align: center;}
+	#section_eleven{}
+	.eleven_smallprint{}
+	.section_eleven_title{}
+
+	.eleven_socialbar{}
+
+	#foot_left{}
+	#foot_middle{text-align:center;}
+	#foot_right{}
+/******************************/
+
